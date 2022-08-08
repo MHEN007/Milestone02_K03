@@ -1,0 +1,70 @@
+/*
+Stylesheet
+Based on : https://www.figma.com/file/E7xTr2XOCWA3GCSWyPpykP/Project-Milestone-1-Kel-3-SPARTA
+*/
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    background: linear-gradient(281.6deg, rgba(50, 39, 128, 0.9) 20.68%, rgba(138, 116, 252, 0.9) 89.58%);
+}
+
+header{
+    height: 250px;
+}
+
+.title{
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sub-title{
+    color: #ffffff;
+    padding: 15px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.form{
+    border-radius: 25px;
+    margin: 0;
+    background: #ffffff;
+    height: 500px;
+    padding:  20px;
+}
+
+.form .button-active{
+    background: #322780;
+    border: 1px solid #B7B6B6;
+    border-radius: 10px;
+    color: #ffffff;
+    float: left;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.form .button-non-active{
+    background: #FFFFFF;
+    border: 1px solid #B7B6B6;
+    border-radius: 10px;
+    color: #4B428B;
+    float:left;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.form .main-form{
+    padding-top: 120px;
+}
+
+.form .main-form .form-input{
+    background: rgba(217, 217, 217, 0.4);
+    border-radius: 10px;
+    width: 302px;
+    height: 45px;
+    font-size: 20px;
+}
