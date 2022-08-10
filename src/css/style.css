@@ -68,3 +68,89 @@ main{
     height: 45px;
     font-size: 20px;
 }
+
+/* Home Page CSS */
+.home-body{
+    background : #FFFFFF;
+
+}
+
+.user{
+    padding: 1% 0 0 85%;
+    color: black;
+}
+
+.pantry-container{
+    margin : 0 0 0 3%;
+}
+.pantry-container .home h1{
+    color: #322780;
+}
+
+.pantry-container .pantry div{
+    float: left;
+    color: #322780;
+}
+
+.pantry-container .pantry .food-list-amount{
+    background-color: #322780;
+    color: #ffffff;
+    margin: 0px 5px 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.pantry-container .food-list .upper{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.pantry-container .food-list .left{
+    float: left;
+}
+
+.pantry-container .food-list .right{
+    float: right;
+}
+
+.pantry-container .food-list{
+    width: 30%;
+    height : 50px;
+    border-radius: 8px;
+    color: #322780;
+    background-color: #EAE7FF;
+    padding: 10px;
+}
+
+.tips-and-tricks{
+    margin: 0 0 0 3%;
+}
+
+.tips-and-tricks .title{
+    color : #322780;
+    font-weight: bold;
+}
+
+.tips-and-tricks .tips-list{
+    width: 30%;
+    box-shadow: black 1px solid;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 0 0 1px 0;
+}
+
+.tips-and-tricks img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.tips-and-tricks .tips-list h2{
+    margin: 5%;
+}
+
+.tips-and-tricks .tips-list p{
+    margin: 5%;
+}

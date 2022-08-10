@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- GOOGLE FONTS -->
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
+<body class="home-body">
     <header>
         <div class="user">
-            <p>Hello, jejecitayem!</p>
+            Hello, <span style="color: #322780; font-weight: bolder">jejecitayem</span>!
         </div>
 
         <div class="pantry-container">
@@ -22,20 +22,21 @@
             </div>
             
             <div class="pantry">
-                <div>In your pantry</div>
-                <div>17</div>
-                <div>-></div>
+                <div><span style="font-weight: bold">In your pantry</span></div>
+                <div class="food-list-amount">17</div>
+                <div><span style="font-weight: bold">-></span></div>
             </div>
-
+            <br>
+            <br>
             <div class="food-list">
                 <div class="food">
-                    <div>
-                        <div>Opor</div>
-                        <div>1 pc</div>
+                    <div class="left">
+                        <div class="upper">Opor</div>
+                        <div class="lower">Expires in 1 day</div>
                     </div>
-                    <div>
-                        <div>Expires in 1 day</div>
-                        <div>Fridge</div>
+                    <div class="right">
+                        <div class="upper">1 pc</div>
+                        <div class="lower">Fridge</div>
                     </div>
                 </div>
             </div>
@@ -44,19 +45,21 @@
 
     <main>
         <div class="tips-and-tricks">
-            <div>TIPS AND TRICKS -></div>
+            <div class="title">TIPS AND TRICKS -></div>
+            <br>
             <div class="tips-list">
                 <div class="tips-img">
-                    <img src="">
+                    <img src="./assets/tips-1.jpg">
                 </div>
                 <div class="tips-text">
                     <h2>Tips 1</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
                 </div>
             </div>
+            <br>
             <div class="tips-list">
                 <div class="tips-img">
-                    <img src="">
+                    <img src="./assets/tips-1.jpg">
                 </div>
                 <div class="tips-text">
                     <h2>Tips 2</h2>
@@ -67,21 +70,27 @@
         </div>
     </main>
     <footer>
-        <div class="icon">
-            <img src="">
-            <div>Home</div>
-        </div>
-        <div class="icon">
-            <img src="">
-            <div>Pantry</div>
-        </div>
-        <div class="icon">
-            <img src="">
-            <div>Tips</div>
-        </div>
-        <div class="icon">
-            <img src="">
-            <div>Settings</div>
+        <div class="navbar">
+            <div class="icon">
+                <img src="">
+                <div>Home</div>
+            </div>
+            <div class="icon">
+                <img src="">
+                <div>Pantry</div>
+            </div>
+            <div class="add-icon">
+                <img src="">
+
+            </div>
+            <div class="icon">
+                <img src="">
+                <div>Tips</div>
+            </div>
+            <div class="icon">
+                <img src="">
+                <div>Settings</div>
+            </div>
         </div>
     </footer>
 </body>
