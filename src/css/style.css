@@ -2,10 +2,13 @@
 Stylesheet
 Based on : https://www.figma.com/file/E7xTr2XOCWA3GCSWyPpykP/Project-Milestone-1-Kel-3-SPARTA
 */
-body{
+.login{
     font-family: 'Inter', sans-serif;
-    margin: 0 auto;
-    background: linear-gradient(281.6deg, rgba(50, 39, 128, 0.9) 20.68%, rgba(138, 116, 252, 0.9) 89.58%);
+    margin: 20px;
+    background: linear-gradient(281.6deg, rgba(50, 39, 128, 0.9) 20.68%, rgba(138, 116, 252, 0.9) 89.58%), url("../assets/gambar2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header{
@@ -14,24 +17,32 @@ header{
 
 .title{
     display: flex;
+    justify-content: center;
     margin: 0 auto;
-    padding: 5px;
+    padding: 2px;
     color: #ffffff;
     text-align: center;
 }
 
-.sub-title{
-    color: #ffffff;
-    padding: 15px;
+.title img{
+    margin-right: 5px;
 }
 
-main{
+.sub-title{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: #ffffff;
+}
+
+.content{
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .form{
     border-radius: 25px;
-    margin: 0;
     background: #ffffff;
     height: 500px;
     padding:  20px;
