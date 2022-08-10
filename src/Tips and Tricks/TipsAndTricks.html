@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+
+<html lang="en">
+    <head>
+        <title>TIPS & TRICKS</title>
+    </head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+
+        <div class="header">
+            <h1>Keep your food fresh!</h1>
+            <p>XPire</p>
+        </div>
+
+
+        <div class="center">
+
+            <form id="search-tips">
+                <input type="text" id="search-input"  placeholder="Search for tips and tricks">
+            </form>
+            
+            <ul id="tips-list">
+                <li>
+                    <h1 class="tipsSingular" id = "1" onclick="togglePopup(1)" ></h1>
+                    <img class="tip_image" id="img1" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "2" onclick="togglePopup(2)" ></h1>
+                    <img class="tip_image" id="img2" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "3" onclick="togglePopup(3)" ><h1>
+                    <img class="tip_image" id="img3" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "4" onclick="togglePopup(4)"></h1>
+                    <img class="tip_image" id="img4" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "5" onclick="togglePopup(5)"></h1>
+                    <img class="tip_image"  id="img5" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "6" onclick="togglePopup(6)"></h1>
+                    <img class="tip_image" id="img6" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "7" onclick="togglePopup(7)"></h1>
+                    <img class="tip_image" id="img7" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "8" onclick="togglePopup(8)"></h1>
+                    <img class="tip_image" id="img8" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "9" onclick="togglePopup(9)"></h1>
+                    <img class="tip_image" id="img9" src="">
+                    <br>
+                </li>
+                <li>
+                    <h1 class="tipsSingular" id = "10" onclick="togglePopup(10)"></h1>
+                    <img class="tip_image" id="img10" src="">
+                </li>
+            </ul>
+            
+
+            <div class="info_popup" id="popup-1">
+                <div class="overlay" onclick="togglePopup()"></div>                   <!-- overlay adalah bagian yg gelap di popup -->
+                <div class="info">
+                    <div class="button_close" onclick="togglePopup()">&times;</div>
+                    <div class="title">
+                        <h1 id="tips_title">Tip Title</h1>
+                    </div>
+
+                    <img id="popup_poster1" href="">
+                    
+                    <div class="descriptions">
+                        <p id="tipInfo">Tip: </p>
+                        <br>
+                        <p id="shelfLife">Shelf life: </p>
+                        <br>
+                        <p id="fridgeLife">Fridge life: </p>
+                        <br>
+                        <p id="container">Best container: </p>
+                        <br>
+                        <a id="link" target="_blank" href="">Add this to my inventory!</a>
+                    </div>
+
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>  <a href="#home" class="active">Home</a> </li>  <!-- Masukin link ke page lain-->
+                <li>  <a href="#pantry" class="active">Pantry</a> </li>
+                <li>  <a href="#Tips" class="active">Tips</a> </li>
+            </ul>
+
+        </div>
+
+        <script src="tips-site-script.js"></script>
+    </body>
+</html>
