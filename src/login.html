@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
@@ -25,20 +25,21 @@
     </header>
     <main class="content">
         <div class="form">
-            <div class="button-active">
-                Login
+            <div class="login-signup">
+                <div class="button-active" id="login">
+                    Login
+                </div>
+                <a href="signup.html">
+                <div class="button-non-active" id="signup">
+                    Sign Up
+                </div>
+                </a>
             </div>
-            <a href="signup.html">
-            <div class="button-non-active">
-                Sign Up
-            </div>
-            </a>
             <form method="POST" action="" class="main-form">
                 Username<br>
                 <input type="text" class="form-input" name="username" required><br>
                 Password<br>
                 <input type="password" class="form-input" name="password" required><br>
-
                 <input type="submit" style="margin-top: 50px; width: 301px; font-size:20px;" value="Log In" class="button-active">
             </form>
         </div>

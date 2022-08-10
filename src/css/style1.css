@@ -2,8 +2,19 @@
 Stylesheet
 Based on : https://www.figma.com/file/E7xTr2XOCWA3GCSWyPpykP/Project-Milestone-1-Kel-3-SPARTA
 */
-.login{
+
+header {
+    height: 250px;
+}
+
+body {
+    margin: auto;
     font-family: 'Inter', sans-serif;
+    max-width: 480px;
+    background-color:#ffffff;
+}
+
+.login{
     margin: 20px;
     background: linear-gradient(281.6deg, rgba(50, 39, 128, 0.9) 20.68%, rgba(138, 116, 252, 0.9) 89.58%), url("../assets/gambar2.png");
     background-repeat: no-repeat;
@@ -11,17 +22,11 @@ Based on : https://www.figma.com/file/E7xTr2XOCWA3GCSWyPpykP/Project-Milestone-1
     background-position: center;
 }
 
-header{
-    height: 250px;
-}
-
 .title{
     display: flex;
-    justify-content: center;
     margin: 0 auto;
     padding: 2px;
     color: #ffffff;
-    text-align: center;
 }
 
 .title img{
@@ -81,14 +86,11 @@ header{
 }
 
 /* Home Page CSS */
-.home-body{
-    background : #FFFFFF;
-
-}
 
 .user{
-    padding: 1% 0 0 85%;
+    padding: 10px;
     color: black;
+    text-align: right;
 }
 
 .pantry-container{
@@ -105,11 +107,12 @@ header{
 
 .pantry-container .pantry .food-list-amount{
     background-color: #322780;
-    color: #ffffff;
     margin: 0px 5px 0px 5px;
     border-radius: 4px;
     font-size: 12px;
+    font-weight: bold;
     padding: 3px;
+    color: white;
 }
 
 .pantry-container .food-list .upper{
@@ -126,7 +129,7 @@ header{
 }
 
 .pantry-container .food-list{
-    width: 30%;
+    width: 85%;
     height : 50px;
     border-radius: 8px;
     color: #322780;
@@ -135,7 +138,7 @@ header{
 }
 
 .tips-and-tricks{
-    margin: 0 0 0 3%;
+    margin: 0;
 }
 
 .tips-and-tricks .title{
@@ -144,18 +147,17 @@ header{
 }
 
 .tips-and-tricks .tips-list{
-    width: 30%;
+    width: 85%;
     box-shadow: black 1px solid;
-    background-color: #ffffff;
     color: black;
     border-radius: 5px;
     padding: 0 0 1px 0;
+    border: black 1px;
 }
 
 .tips-and-tricks img{
     border-radius: 5px;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
 .tips-and-tricks .tips-list h2{

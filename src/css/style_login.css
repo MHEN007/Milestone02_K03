@@ -1,0 +1,102 @@
+header {
+    height: 250px;
+}
+
+body {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    max-width: 480px;
+}
+
+/* Login/Signup Page */
+
+.login {
+    background: linear-gradient(281.6deg, rgba(50, 39, 128, 0.9) 20.68%, rgba(138, 116, 252, 0.9) 89.58%), url("../assets/gambar2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    height: 250px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title img{
+    margin-right: 5px;
+}
+
+.sub-title{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: #ffffff;
+}
+
+.content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    border-radius: 25px;
+    background: #ffffff;
+    height: 500px;
+    padding:  20px;
+}
+
+.form .button-active{
+    background: #322780;
+    border: 1px solid #B7B6B6;
+    border-radius: 10px;
+    color: #ffffff;
+    float: left;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.form .button-non-active{
+    background: #FFFFFF;
+    border: 1px solid #B7B6B6;
+    border-radius: 10px;
+    color: #4B428B;
+    float:left;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.form .main-form{
+    margin-top: 50px;
+}
+
+.form .main-form .form-input{
+    background: rgba(217, 217, 217, 0.4);
+    border-radius: 10px;
+    width: 302px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.login-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    float: left;
+    margin: 10px;
+}
+#signup {
+    float: right;
+    margin: 10px;
+}
