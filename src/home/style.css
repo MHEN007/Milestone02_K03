@@ -1,7 +1,11 @@
-.home-body{
-    background : #FFFFFF;
+body{
+    background-color: #ffffff;
 }
 
+header{
+    width: 33%;
+    margin: 0% 33% 0% 33%;
+}
 .user{
     padding: 1% 0 0 85%;
     color: black;
@@ -10,6 +14,11 @@
 .pantry-container{
     margin : 0 0 0 3%;
 }
+
+.pantry-container .log-in-message{
+    color: black
+}
+
 .pantry-container .home h1{
     color: #322780;
 }
@@ -42,7 +51,7 @@
 }
 
 .pantry-container .food-list{
-    width: 30%;
+    width: 60%;
     height : 50px;
     border-radius: 8px;
     color: #322780;
@@ -51,7 +60,7 @@
 }
 
 .tips-and-tricks{
-    margin: 0 0 0 3%;
+    margin: 2% 0 0 34%;
 }
 
 .tips-and-tricks .title{
@@ -60,8 +69,8 @@
 }
 
 .tips-and-tricks .tips-list{
-    width: 30%;
-    box-shadow: black 1px solid;
+    width: 47%;
+    box-shadow: 3px 4px 10px grey;
     background-color: #ffffff;
     color: black;
     border-radius: 5px;
@@ -74,10 +83,7 @@
     height: 100%;
 }
 
-.tips-and-tricks .tips-list h2{
-    margin: 5%;
-}
-
-.tips-and-tricks .tips-list p{
-    margin: 5%;
+.tips-and-tricks .tips-list .tips-text{
+    margin: 0 3% 0 3%;
+    text-align: justify;
 }
