@@ -39,6 +39,8 @@ header{
 }
 
 .pantry-container .food-list{
+    overflow: hidden;
+    min-width: 400px;
     width: 75%;
     height : 50px;
     border-radius: 8px;
@@ -48,6 +50,7 @@ header{
 }
 
 .pantry-tag {
+    
     position: relative;
     left: 0px;
     height: 140%;
@@ -77,9 +80,11 @@ header{
 
 .tips-and-tricks{
     margin: 2% 0 0 34%;
+    min-width: 900px;
 }
 
 .tips-and-tricks .title{
+    overflow: hidden;
     color : #322780;
     font-weight: bold;
 }

@@ -176,12 +176,15 @@ header{
     /* Expired */
 
 .pantry_main{
+    width: 33%;
+    margin: 0% 33% 0% 33%;
     display: block;
 }
 .pantry_item{
     position: relative;
     max-width: 800px;
     width: 90%;
+    min-width: 500px;
     height: 84px;
     left: 30px;
 
@@ -254,6 +257,10 @@ header{
 }
 
 /* PANTRY LOG*/
+.pantry_log {
+    width: 33%;
+    margin: 0% 33% 0% 33%;
+}
 
 .item_barcode {
     margin: 10px 0px 8px 0px;
