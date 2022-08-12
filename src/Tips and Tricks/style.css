@@ -89,10 +89,13 @@ body{
     padding-bottom: 10px;
 }
 
-#tips-list li .tipsSingular:hover{
+#tips-list li:hover{
     background-color: #8A74FF;
     cursor: pointer;
 }
+ 
+
+
 
 #tips-list li .tip_image{
     border-radius: 5px;
