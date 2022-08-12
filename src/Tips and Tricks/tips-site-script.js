@@ -1,64 +1,80 @@
 // semua movie yang ingin ditampilkan ada di sini
 const tipsntricks =[
     {tipName: "Tip One", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://media.istockphoto.com/photos/broccoli-picture-id147060621?b=1&k=20&m=147060621&s=170667a&w=0&h=AwFK8R6drXZRUGGKEXKWtgpwTaz_6HD4R_Nd7xE9VJ8=",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Two", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Three", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Four", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Five", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Six", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Seven", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Eight", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Nine", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 
     {tipName: "Tip Ten", tip: "Lorem ipsum", shelf: "Lorem ipsum", fridge:"Lorem ipsum",
-    tipImage: "https://cdn.britannica.com/39/187439-050-35BA4DCA/Broccoli-florets.jpg",
+    tipImage: "../assets/tips-1.jpg",
+    tipContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.",
     cont:"Lorem Ipsum",
     link:""}, //masukin link inventory check
 ]
 
 // looping untuk memberikan judul di mainpage
 for (let x = 0; x < tipsntricks.length; x++){
+    document.getElementById("img" + (x+1)).src = tipsntricks[x].tipImage;
+}
+
+for (let x = 0; x < tipsntricks.length; x++){
     document.getElementById(x+1).innerHTML = (x+1) + ". " + tipsntricks[x].tipName;
 }
 
 for (let x = 0; x < tipsntricks.length; x++){
-    document.getElementById("img" + (x+1)).src = tipsntricks[x].tipImage;
+    document.getElementById("c" + (x+1)).innerHTML = tipsntricks[x].tipContent;
 }
+
+
 
 // saat diclick popup akan aktif dan mengubah data seusai movie yg diclick
 function togglePopup(movie_num){

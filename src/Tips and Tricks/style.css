@@ -4,11 +4,11 @@
 }
 
 .header {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     display: inline-block;
-    background-image: url(https://www.wallpapertip.com/wmimgs/106-1064260_firewatch-wallpaper-firewatch-wallpapers-album-on-imgur-lakeside.jpg);
-    height: 200px;
+    background-image: linear-gradient(to bottom right, #8A74FF, #322782) ;
+    height: 240px;
     width: 100%;
     color: aliceblue;
 }
@@ -27,7 +27,7 @@
 }
 
 body{
-    background-color: #8A74FF;
+    background-color: white;
 }
 
 .center{
@@ -42,11 +42,11 @@ body{
 
 #search-input{   /* ini style untuk searchbar */
     display: inline-block;
-    margin-left: 21%;
+    margin-left: 25%;
     background-image: url('https://www.w3schools.com/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 80%;
+    width: 50%;
     text-align: center;
     font-size: 16px; 
     margin-top: 20px;
@@ -57,44 +57,61 @@ body{
 
 
 #tips-list li {
-    background-color: #322782;
-    width: 70%;
     display: flex;
     margin: auto;
     margin-bottom: 70px;
     margin-top: 70px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: beige;
-    border-radius: 3px;
+    justify-content: left;
+    align-items: left;
+    border: black;
     border-style: solid;
+    width: 35%;
+    box-shadow: 3px 4px 10px grey;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 0 0 1px 0;
 }
 
 #tips-list li .tipsSingular{
     padding: 15px 20px;
-    margin: 20px;
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
-    float: center;
-    display: inline;
-    text-align: center;
+    font-family: 'Inter', sans-serif;
+    float: left;
+    display: inline-block;
     text-decoration: none;
-    color:aliceblue;
+    color:black;
+    margin: 0 3% 0 3%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 #tips-list li .tipsSingular:hover{
-    background-color: #FFE566;
+    background-color: #8A74FF;
     cursor: pointer;
 }
 
 #tips-list li .tip_image{
-    height: 400px;
-    width: 270px;
-    margin-bottom: 50px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+#tips-list li .tipcontent{
+    margin: 0 3% 0 3%;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#tips-list li .tipcontent #c3{
+    margin: 0 3% 0 3%;
+    text-align: justify;
+
 }
 
 .info_popup .overlay{
@@ -113,7 +130,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    background:#8A74FF;
+    background-image: linear-gradient(to bottom right, #8A74FF, #322782);
     color: aliceblue;
     width: 750px;
     height: 600px;
@@ -126,6 +143,7 @@ body{
     border-radius: 2px;
     border-style: solid;
     border-color:aliceblue;
+    font-family: 'Inter', sans-serif;
 }
 
 .info_popup .title{
@@ -135,7 +153,7 @@ body{
     width: 90%;
     display: inline-block;
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .info #popup_poster1{
