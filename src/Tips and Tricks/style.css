@@ -194,41 +194,22 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
-.navbar{
-    background-color: #FFE566;
+.navbar {
     overflow: hidden;
-    align-items: center;
     position: fixed;
     bottom: 0;
-    width: 100%; 
-    font-family: 'Oswald', sans-serif;
-    margin: auto;
-}
+    width: 100%;
 
-.navbar ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.navbar li{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
-    display: block;
-    list-style-type: none;
-    color: #8A74FF;
-    padding: 20px 22px;
     text-decoration: none;
-    text-align: center;
-    font-size: 21px;
-    text-align: center;
-  }
-
-.navbar a:hover {
-    background-color: #FFB166;
-    color: #8A74FF;
-  }
+    float: left;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
 
