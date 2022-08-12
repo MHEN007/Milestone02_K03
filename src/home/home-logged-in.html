@@ -28,8 +28,9 @@
             </div>
             <br>
             <br>
-            <div class="food-list">
-                <div class="food">
+            <div class="food-list" id="item_pertama">
+                <div class="pantry-tag"></div>
+                <div class="food" >
                     <div class="left">
                         <div class="upper">Opor</div>
                         <div class="lower">Expires in 1 day</div>
@@ -71,26 +72,24 @@
     </main>
     <footer>
         <div class="navbar">
-            <div class="icon">
-                <img src="">
-                <div>Home</div>
-            </div>
-            <div class="icon">
-                <img src="">
-                <div>Pantry</div>
-            </div>
-            <div class="add-icon">
-                <img src="">
-
-            </div>
-            <div class="icon">
-                <img src="">
-                <div>Tips</div>
-            </div>
-            <div class="icon">
-                <img src="">
-                <div>Settings</div>
-            </div>
+            <ul>
+                <a href="#home" class="active">
+                    <img src="../assets/logo-home.svg"/>
+                </a>
+                <a href="#pantry" class="active">
+                    <img src="../assets/logo-pantry.svg"/>
+                </a> 
+                <a href="#add" class="active" id="add-logo-plus">
+                    <img src="../assets/logo-add-plus.svg"/>
+                </a> 
+                <a href="#Tips" class="active">
+                    <img src="../assets/logo-tips.svg"/>
+                </a>
+                <a href="#Settings" class="active">
+                    <img src="../assets/logo-settings.svg"/>
+                </a> 
+            </ul>
+    
         </div>
     </footer>
 </body>

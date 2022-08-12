@@ -37,6 +37,29 @@ header{
     padding: 3px;
 }
 
+.pantry-container .food-list{
+    width: 75%;
+    height : 50px;
+    border-radius: 8px;
+    color: #322780;
+    background-color: #EAE7FF;
+    padding: 10px 10px 10px 0px;
+}
+
+.pantry-tag {
+    position: relative;
+    left: 0px;
+    height: 140%;
+    width: 12px;
+    border-radius: 20px 0px 0px 20px;
+    float: left;
+    margin-top: -10px;
+  }
+
+  #item_pertama .pantry-tag {
+    background-color: #322780;
+  }
+  
 .pantry-container .food-list .upper{
     font-weight: bolder;
     font-size: 25px;
@@ -44,19 +67,11 @@ header{
 
 .pantry-container .food-list .left{
     float: left;
+    margin: 0px 10px 10px 5px;
 }
 
 .pantry-container .food-list .right{
     float: right;
-}
-
-.pantry-container .food-list{
-    width: 60%;
-    height : 50px;
-    border-radius: 8px;
-    color: #322780;
-    background-color: #EAE7FF;
-    padding: 10px;
 }
 
 .tips-and-tricks{
@@ -86,4 +101,23 @@ header{
 .tips-and-tricks .tips-list .tips-text{
     margin: 0 3% 0 3%;
     text-align: justify;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 0px 20px 0px 20px;
 }
