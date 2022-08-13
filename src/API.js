@@ -1,3 +1,5 @@
+// Cara nge run server: npm --prefix ./src/server/ run server
+
 export function login(username, password) {
   // Fungsi ini tujuannya buat nyimpen data username sama password ke localStorage.
   // Fungsi ini bisa dipake di halaman login.
