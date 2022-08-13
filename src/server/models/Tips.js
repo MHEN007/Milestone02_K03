@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const TipsAndTricksSchema = new mongoose.Schema({
+const TipsSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
@@ -11,4 +11,4 @@ const TipsAndTricksSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("TipsAndTricks", TipsAndTricksSchema);
+module.exports = mongoose.model("Tips", TipsSchema);
