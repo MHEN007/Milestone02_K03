@@ -8,10 +8,13 @@ header{
     width: 33%;
     margin: 0% 33% 0% 33%;
 }
+a{
+    text-decoration: none;
+}
 .user{
-    padding: 1% 0 0 70%;
     color: black;
     display : flex;
+    float: right;
 }
 
 .pantry-container{
