@@ -9,8 +9,9 @@ header{
     margin: 0% 33% 0% 33%;
 }
 .user{
-    padding: 1% 0 0 85%;
+    padding: 1% 0 0 70%;
     color: black;
+    display : flex;
 }
 
 .pantry-container{
