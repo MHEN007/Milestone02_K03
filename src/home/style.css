@@ -66,9 +66,9 @@ a{
     
     position: relative;
     left: 0px;
-    height: 170%;
+    height: 150%;
     width: 12px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 8px 0px 0px 8px;
     float: left;
     margin-top: -10px;
   }
@@ -171,7 +171,7 @@ a{
 
 .card::before,
 .card::after {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
