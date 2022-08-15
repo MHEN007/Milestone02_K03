@@ -24,50 +24,23 @@
             
             <div class="pantry">
                 <div><span style="font-weight: bold">In your pantry</span></div>
-                <div class="food-list-amount">17</div>
+                <div class="food-list-amount" id="food-list-amount">17</div>
                 <div><span style="font-weight: bold">→</span></div>
             </div>
             <br>
             <br>
-            <div class="food-wrapper">
-                <div class="food-list" id="item_pertama">
+            <div class="card food-card">
+                <div class="card food-list" id="item_pertama">
                     <div class="pantry-tag"></div>
-                    <div class="food" >
+                    <div class="food">
                         <div class="left">
-                            <div class="upper">Opor</div>
-                            <div class="lower">Expires in 1 day</div>
+                            <div class="upper" id="item-name">Opor</div>
+                            <div class="lower" id="item-expiry">Expires in 1 day</div>
                         </div>
-                        <div class="right">
-                            <div class="upper">1 pc</div>
-                            <div class="lower">Fridge</div>
-                        </div>
-                    </div>
-                </div>
     
-                <div class="food-list">
-                    <div class="pantry-tag"></div>
-                    <div class="food" >
-                        <div class="left">
-                            <div class="upper"></div>
-                            <div class="lower"></div>
-                        </div>
                         <div class="right">
-                            <div class="upper"></div>
-                            <div class="lower"></div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="food-list">
-                    <div class="pantry-tag"></div>
-                    <div class="food" >
-                        <div class="left">
-                            <div class="upper"></div>
-                            <div class="lower"></div>
-                        </div>
-                        <div class="right">
-                            <div class="upper"></div>
-                            <div class="lower"></div>
+                            <div class="upper" id="item-quantity">1 pc</div>
+                            <div class="lower" id="item-storage">Fridge</div>
                         </div>
                     </div>
                 </div>
@@ -84,21 +57,33 @@
                     <img src="../assets/tips-1.jpg">
                 </div>
                 <div class="tips-text">
-                    <h2>Tips 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
+                    <h2 id="tips-1-title">Tips 1</h2>
+                    <p id="tips-1-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
                 </div>
             </div>
+
             <br>
             <div class="tips-list">
                 <div class="tips-img">
                     <img src="../assets/tips-1.jpg">
                 </div>
                 <div class="tips-text">
-                    <h2>Tips 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
+                    <h2 id="tips-2-title">Tips 2</h2>
+                    <p id="tips-2-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
                 </div>
             </div>
+
+            <br>
+            <div class="tips-list">
+                <div class="tips-img">
+                    <img src="../assets/tips-1.jpg">
+                </div>
+                <div class="tips-text">
+                    <h2 id="tips-2-title">Tips 3</h2>
+                    <p id="tips-2-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, totam nobis? Inventore natus facere recusandae dolore sunt ratione reprehenderit est? Blanditiis quis, repudiandae ab laborum ex exercitationem minima distinctio nostrum.</p>
+                </div>
             </div>
+
         </div>
     </main>
     <footer>
@@ -122,7 +107,8 @@
             </ul>
         </div>
     </footer>
+    <script src="../scripts/home.js" type="module"></script>
 </body>
 <script src="../API.js" type = "module"></script>
-<script src="home.js"></script>
+<!-- <script src="home.js"></script> -->
 </html>
