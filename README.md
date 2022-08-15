@@ -6,7 +6,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 
 ## Anggota Kelompok dan Kontribusi
 - Hilmi Baskara Radanto	(16521094),
-- Rava Maulana	(16521102),
+- Rava Maulana	(16521102), Backend Javascript
 - Ahmad Ghulam Ilham (16521142),
 - Fakhri Muhammad Mahendra	(16521155),
 - Kean Nafis Santang (16521159), Tips and Tricks Page
@@ -14,11 +14,11 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Rifqi Syafiq	(16521223),
 - Erensi Ratu Chelsia (16521236),
 - Raditya Azka Prabaswara	(16521252),
-- Ilmagita Nariswari (16521300),
+- Ilmagita Nariswari (16521300), Styling
 - Mohammad Farhan Fahrezy	(16521364), Content
 - Vincent Franstyo	(16521471), Home Page
 - Matthew Mahendra	(16521497), Login dan Sign Up Page
 - Jauza Lathifah Annasalafi	(16521515),
 
-## Demonstrasi
+## Dokumentasi Produk
 Lorem ipsum dolor sit amet
