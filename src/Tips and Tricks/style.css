@@ -78,7 +78,6 @@ body{
     padding: 15px 20px;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    float: left;
     display: inline-block;
     text-decoration: none;
     color:black;
@@ -165,6 +164,7 @@ body{
     position:absoulte;
     height: 360px;
     width: 243px;
+    object-fit: cover;
     float: left;
     border-radius: 2px;
     border-style: solid;
