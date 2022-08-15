@@ -6,7 +6,7 @@ const PantrySchema = new mongoose.Schema({
     required: true,
   },
   quantity: {
-    type: Number,
+    type: String,
   },
   itemType: {
     type: String,

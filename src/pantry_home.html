@@ -27,26 +27,26 @@
             <ul>
                 <li class="pantry-option"> 
                     <a href="#All" class="storage_option">All</a> 
-                    <div class="storage_quantity"> 17</div></li>
+                    <div class="storage_quantity" id="all-item"> 17</div></li>
                 
                 <li class="pantry-option"> 
                     <a href="#All" class="storage_option">Fridge</a>  
-                    <div class="storage_quantity"> 17</div></li>
+                    <div class="storage_quantity" id="fridge-item"> 17</div></li>
                 
                 <li class="pantry-option"> 
                     <a href="#All" class="storage_option">Freezer</a>  
-                    <div class="storage_quantity"> 17</div> </li>
+                    <div class="storage_quantity" id="freezer-item"> 17</div> </li>
                 
                 <li class="pantry-option"> 
                     <a href="#All" class="storage_option">Dry</a>  
-                    <div class="storage_quantity"> 17</div></li>
+                    <div class="storage_quantity" id="dry-item"> 17</div></li>
 
             </ul>
         </div>
     </div>
 
-    <div class="pantry_main">
-        <!-- Item Pertama -->
+    <div class="pantry_main" id="pantry-main">
+        <!-- Item Pertama
         <div class="pantry_item" id="item_pertama">
             <div class="pantry-tag"></div>
             <div class="item-left">
@@ -72,63 +72,63 @@
         <div class="pantry_divider">
             SORTED BY
             <div class="item_sorted"> 
-                <!-- Nanti harusnya di fetch dari data--> days in 
+                Nanti harusnya di fetch dari data days in 
             </div>
-        </div>
+        </div> -->
 
         <!-- Harusnya ini jadi component-->
-        <div class="pantry_item">
+        <!-- <div class="pantry_item">
             <div class="pantry-tag"></div>
             <div class="item-left">
                 <div class="item_name">
-                    <!-- Item name -->
+                    Item name
                     Meat
                 </div>
                 <div class="item_expiration">
-                    <!-- Item expiration -->
+                    Item expiration
                     3 days in
                 </div>
             </div>
             
             <div class="item-right">
                 <div class="item_quantity">
-                    <!-- Item quantity -->
+                    Item quantity
                     100 g
                 </div>
                 
                 <div class="item_storage">
-                    <!-- Item storage -->
+                    Item storage
                     Fridge
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <!-- CMN CONTOH BS DIDELETE -->
-        <div class="pantry_item">
+        <!-- <div class="pantry_item">
             <div class="pantry-tag"></div>
             <div class="item-left">
                 <div class="item_name">
-                    <!-- Item name -->
+                    Item name
                     Eggs
                 </div>
                 <div class="item_expiration">
-                    <!-- Item expiration -->
+                    Item expiration
                     2 days in
                 </div>
             </div>
             
             <div class="item-right">
                 <div class="item_quantity">
-                    <!-- Item quantity -->
+                    Item quantity
                     150 g
                 </div>
                 
                 <div class="item_storage">
-                    <!-- Item storage -->
+                    Item storage
                     Fridge
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     </div>
@@ -143,7 +143,7 @@
             <a href="#" class="active">
                 <img src="./assets/logo-pantry.svg"/>
             </a> 
-            <a href="../pantry_log.html" class="active" id="add-logo-plus">
+            <a href="./pantry_log.html" class="active" id="add-logo-plus">
                 <img src="./assets/logo-add-plus.svg"/>
             </a> 
             <a href="./Tips and Tricks/TipsAndTricks.html" class="active">
@@ -156,6 +156,6 @@
 
     </div>
 
-    
+    <script src="./scripts/pantryHome.js" type="module"></script>
 </body>
 </html>

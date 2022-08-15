@@ -1,15 +1,20 @@
 // Cara nge run server: npm --prefix ./src/server/ run server
 
-export function login(username, password) {
+export async function login(username, password) {
   // Fungsi ini tujuannya buat nyimpen data username sama password ke localStorage.
   // Fungsi ini bisa dipake di halaman login.
   // Fungsi ini kalo loginnya valid bakal nge-return data user, kalo ga valid
   // bakal nampilin error.
 
-  localStorage.clear();
-  localStorage.setItem("username", username);
-  localStorage.setItem("password", password);
-  getUserData().then((data) => console.log(data));
+  try {
+    localStorage.clear();
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+    const data = await getUserData();
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 export async function getUserData() {
@@ -26,7 +31,6 @@ export async function getUserData() {
     const data = await res.json();
 
     if (data.user) {
-      console.log(data.user);
       return data.user;
     } else {
       return data;
@@ -90,7 +94,7 @@ export async function createPantry(pantry) {
         "Content-Type": "application/json",
       },
     });
-    console.log(await res.json());
+    return await res.json();
   } catch (err) {
     console.log(err);
   }
