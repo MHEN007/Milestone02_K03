@@ -1,6 +1,13 @@
 /* Language: css */
+:root{
+    --white: #fff;
+    --black: #000;
+    --dark-purple : #322780;
+    --light-purple: #EAE7FF;
+
+}
 body{
-    background-color: #ffffff;
+    background-color: var(--white);
     font-family: 'Inter', sans-serif;
 }
 
@@ -12,7 +19,7 @@ a{
     text-decoration: none;
 }
 .user{
-    color: black;
+    color: var(--black);
     display : flex;
     float: right;
 }
@@ -22,21 +29,21 @@ a{
 }
 
 .pantry-container .log-in-message{
-    color: black
+    color: var(--black)
 }
 
 .pantry-container .home h1{
-    color: #322780;
+    color: var(--dark-purple);
 }
 
 .pantry-container .pantry div{
     float: left;
-    color: #322780;
+    color: var(--dark-purple);
 }
 
 .pantry-container .pantry .food-list-amount{
-    background-color: #322780;
-    color: #ffffff;
+    background-color: var(--dark-purple);
+    color: var(--white);
     margin: 0px 5px 0px 5px;
     border-radius: 4px;
     font-size: 12px;
@@ -49,8 +56,8 @@ a{
     width: 75%;
     height : 50px;
     border-radius: 8px;
-    color: #322780;
-    background-color: #EAE7FF;
+    color: var(--dark-purple);
+    background-color: var(--light-purple);
     padding: 10px 10px 10px 0px;
 }
 
@@ -58,7 +65,7 @@ a{
     
     position: relative;
     left: 0px;
-    height: 140%;
+    height: 170%;
     width: 12px;
     border-radius: 20px 0px 0px 20px;
     float: left;
@@ -66,7 +73,7 @@ a{
   }
 
   #item_pertama .pantry-tag {
-    background-color: #322780;
+    background-color: var(--dark-purple);
   }
   
 .pantry-container .food-list .upper{
@@ -90,15 +97,15 @@ a{
 
 .tips-and-tricks .title{
     overflow: hidden;
-    color : #322780;
+    color : var(--dark-purple);
     font-weight: bold;
 }
 
 .tips-and-tricks .tips-list{
     width: 47%;
     box-shadow: 3px 4px 10px grey;
-    background-color: #ffffff;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     border-radius: 5px;
     padding: 0 0 1px 0;
 }
@@ -121,7 +128,7 @@ a{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background: #FFFFFF;
+    background: var(--white);
     box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -130,4 +137,11 @@ a{
     float: left;
     display: block;
     padding: 0px 20px 0px 20px;
+}
+
+/* Style of Food card*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
