@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Login</title>
-</head>
-<body class="login">
+  </head>
+  <body class="login">
     <header>
-        <div class="title">
-            <img src="./assets/Logo (Rounded) 1.png">
-            <h1>XPire</h1>
-        </div>
-        <div class="sub-title">
-            <h2>Hello!</h2>
-        </div>
-        <div class="sub-title">
-            Welcome back
-        </div>
+      <div class="title">
+        <img src="./assets/Logo (Rounded) 1.png" />
+        <h1>XPire</h1>
+      </div>
+      <div class="sub-title">
+        <h2>Hello!</h2>
+      </div>
+      <div class="sub-title">Welcome back</div>
     </header>
     <main class="content">
-        <div class="form">
-            <div class="button-active">
-                Login
-            </div>
-            <a href="signup.html">
-            <div class="button-non-active">
-                Sign Up
-            </div>
-            </a>
-            <form method="POST" action="" class="main-form">
-                Username<br>
-                <input type="text" class="form-input" name="username" required><br>
-                Password<br>
-                <input type="password" class="form-input" name="password" required><br>
+      <div class="form">
+        <div class="button-active">Login</div>
+        <a href="signup.html">
+          <div class="button-non-active">Sign Up</div>
+        </a>
+        <form class="main-form" id="main-form">
+          Username<br />
+          <input
+            id="username-input"
+            type="text"
+            class="form-input"
+            name="username"
+            required
+          /><br />
+          Password<br />
+          <input
+            id="password-input"
+            type="password"
+            class="form-input"
+            name="password"
+            required
+          /><br />
 
-                <input type="submit" style="margin-top: 50px; width: 301px; font-size:20px;" value="Log In" class="button-active">
-            </form>
-        </div>
+          <input
+            type="submit"
+            style="margin-top: 50px; width: 301px; font-size: 20px"
+            value="Log In"
+            class="button-active"
+          />
+        </form>
+      </div>
     </main>
-    <footer>
-        
-    </footer>
-</body>
+    <footer></footer>
+    <script src="./scripts/login.js" type="module"></script>
+  </body>
 </html>
