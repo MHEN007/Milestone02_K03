@@ -14,7 +14,11 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Rifqi Syafiq	(16521223),
 - Erensi Ratu Chelsia (16521236),
 - Raditya Azka Prabaswara	(16521252),
+<<<<<<< HEAD
+- Ilmagita Nariswari (16521300),
+=======
 - Ilmagita Nariswari (16521300), Styling
+>>>>>>> 704f0340cf46af18d2f9ba90637f014b5f8f0f41
 - Mohammad Farhan Fahrezy	(16521364), Content
 - Vincent Franstyo	(16521471), Home Page
 - Matthew Mahendra	(16521497), Login dan Sign Up Page
