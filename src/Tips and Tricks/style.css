@@ -105,7 +105,7 @@ body{
 }
 
 #tips-list li .tipcontent{
-    margin: 0 3% 0 3%;
+    margin: 0 3% 3%;
     text-align: justify;
     font-family: 'Inter', sans-serif;
 
