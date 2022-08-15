@@ -1,8 +1,8 @@
 // semua movie yang ingin ditampilkan ada di sini
-import { getTips } from "../scripts/API.js";
+//import { getTips } from "../scripts/API.js";
 
-const data = getTips().then((res) => res);
-console.log(data);
+//const data = getTips().then((res) => res);
+//console.log(data);
 
 const tipsntricks = [
   {
