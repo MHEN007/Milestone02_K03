@@ -9,12 +9,13 @@ import {
 
 async function handleLoad() {
   try {
+    // Ambil data
     let { pantries } = await getUserData();
     let firstItem;
     [firstItem, pantries] = getFirstItem(pantries);
     pantries = sortPantry(pantries);
 
-    // Update Main
+    // Render Pantry
     const container = document.getElementById("pantry-main");
     let el = `
       <div class="pantry_item" id="item_pertama">
@@ -79,7 +80,7 @@ async function handleLoad() {
 
     container.innerHTML += el;
 
-    // Update count
+    // Render jumlah masing-masing storage
     const [allCount, fridgeCount, freezerCount, dryCount] =
       countPantry(pantries);
 

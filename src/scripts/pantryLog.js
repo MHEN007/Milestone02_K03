@@ -10,6 +10,7 @@ const storageInput = document.getElementById("item_storage");
 
 async function handleSubmit() {
   try {
+    // Masukin pantry ke database
     const res = await createPantry({
       name: nameInput.value,
       quantity: quantityInput.value,
@@ -18,8 +19,8 @@ async function handleSubmit() {
       expiryDate: expiryDateInput.value,
       storage: storageInput.value,
     });
-    console.log(res);
     if (res.user) {
+      // Kalo udah berhasil, balik lagi ke home
       window.location.href = "./pantry_home.html";
     } else {
       alert("Nama item belum dimasukkan");

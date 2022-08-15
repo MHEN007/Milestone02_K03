@@ -1,4 +1,5 @@
 export function calcDaysIn(dateString) {
+  // Fungsi buat ngitung berapa lama semenjak dimasukin ke database
   let time = Math.round((new Date() - new Date(dateString)) / 1000 / 3600 / 24);
   if (time > 0) {
     // >= 1 hari
@@ -9,6 +10,7 @@ export function calcDaysIn(dateString) {
 }
 
 export function getFirstItem(pantryArr) {
+  // Fungsi buat ngambil pantry dengan expiry date paling cepet
   const arr = [...pantryArr];
   arr.sort((a, b) => {
     return (
@@ -21,6 +23,7 @@ export function getFirstItem(pantryArr) {
 }
 
 export function sortPantry(pantryArr) {
+  // Fungsi buat ngurutin pantry berdasarkan days in
   const arr = [...pantryArr];
   return arr.sort((a, b) => {
     return (
@@ -32,6 +35,7 @@ export function sortPantry(pantryArr) {
 }
 
 export function calcExpiryDate(dateString) {
+  // Fungsi buat ngitung jumlah hari menuju expiry date
   let time = Math.round((new Date(dateString) - new Date()) / 1000 / 3600 / 24);
   if (time > 0) {
     // >= 1 hari
@@ -42,6 +46,7 @@ export function calcExpiryDate(dateString) {
 }
 
 export function countPantry(pantries) {
+  // Fungsi buat ngitung jumlah pantry per storage
   const arr = [...pantries];
   const allCount = arr.length;
   const fridgeCount = arr.filter(

@@ -58,7 +58,6 @@ export async function createUser(username, password) {
     const data = await res.json();
 
     if (data.user) {
-      console.log(data.user);
       localStorage.clear();
       localStorage.setItem("username", username);
       localStorage.setItem("password", password);
