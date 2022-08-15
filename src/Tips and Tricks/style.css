@@ -78,7 +78,6 @@ body{
     padding: 15px 20px;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-    float: left;
     display: inline-block;
     text-decoration: none;
     color:black;
@@ -89,10 +88,13 @@ body{
     padding-bottom: 10px;
 }
 
-#tips-list li .tipsSingular:hover{
+#tips-list li:hover{
     background-color: #8A74FF;
     cursor: pointer;
 }
+ 
+
+
 
 #tips-list li .tip_image{
     border-radius: 5px;
@@ -102,7 +104,7 @@ body{
 }
 
 #tips-list li .tipcontent{
-    margin: 0 3% 0 3%;
+    margin: 0 3% 3%;
     text-align: justify;
     font-family: 'Inter', sans-serif;
 
@@ -162,6 +164,7 @@ body{
     position:absoulte;
     height: 360px;
     width: 243px;
+    object-fit: cover;
     float: left;
     border-radius: 2px;
     border-style: solid;
