@@ -28,7 +28,7 @@ Pengembangan XPire ini menggunakan javascript. JavaScript adalah bahasa pemrogra
 Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang digunakan untuk mengatur struktur dan tampilan (layout) website XPire. HTML digunakan untuk mendefisinikan struktur website menggunakan markup, sehingga konten yang ditampilkan dapat dibedakan menjadi title, heading, body, list, paragraph. Sedangkan, CSS digunakan untuk mengatur style penulisan pada website seperti warna, ukuran, posisi font yang digunakan pada website.
 ## Cara Run
 Install Extension di VS code. Buka file login.html . Click Go live pada bagian bawah kanan.
-## Fungsi yang diimplementasikan dalam JavaScript
+## Fungsi yang diimplementasikan
 login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage
 getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database
 createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage
