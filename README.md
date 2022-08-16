@@ -66,7 +66,7 @@ Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanan dari makan
 
 ![Pantry](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry.png)
 
-#### 5. Pantry Log ####
+### 5. Pantry Log ###
 Tempat pengguna memasukan informasi tentang makanan baru yang ingin dicatat di pantry
 
 ![Pantry Log](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry%20Log.png)
