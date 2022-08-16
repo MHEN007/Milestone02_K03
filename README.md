@@ -27,6 +27,13 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 ## Dokumentasi Produk
 Pengembangan XPire ini menggunakan javascript. JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. Dengan JavaScript ini bisa membuat aplikasi, tools, atau bahkan game pada web. Secara teknis, JavaScript atau JS merupakan bahasa pemrograman jenis interpreter, sehingga tidak memerlukan compiler untuk menjalankannya. JavaScript memiliki fitur-fitur seperti berorientasi objek, client-side, high-level programming, dan loosely typed.
 
+## Fungsi yang diimplementasikan dalam JavaScript
+login(username, password) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage
+getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database
+createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage
+createPantry(pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login
+getTips() : Mengambil data tips and tricks dari data base
+
 ## Alur Kerja
 Laman yang pertama ditampilkan bergantung pada status login pengguna
 
