@@ -9,7 +9,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Rava Maulana	(16521102), Backend Javascript
 - Ahmad Ghulam Ilham (16521142), Content
 - Fakhri Muhammad Mahendra	(16521155), PPT, README
-- Kean Nafis Santang (16521159), Tips and Tricks Page
+- Kean Nafis Santang (16521159), Tips and Tricks Page (Front end + content)
 - Alisha Listya Wardhani (16521209), Pantry (Home dan Log)
 - Rifqi Syafiq	(16521223), Content
 - Erensi Ratu Chelsia (16521236),
@@ -28,17 +28,6 @@ Pengembangan XPire ini menggunakan javascript. JavaScript adalah bahasa pemrogra
 Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang digunakan untuk mengatur struktur dan tampilan (layout) website XPire. HTML digunakan untuk mendefisinikan struktur website menggunakan markup, sehingga konten yang ditampilkan dapat dibedakan menjadi title, heading, body, list, paragraph. Sedangkan, CSS digunakan untuk mengatur style penulisan pada website seperti warna, ukuran, posisi font yang digunakan pada website.
 ## Cara Run
 Install Extension di VS code. Buka file login.html . Click Go live pada bagian bawah kanan.
-## Fungsi yang diimplementasikan
-login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
-getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database  <br>
-createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage  <br>
-createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login  <br>
-getTips() : Mengambil data tips and tricks dari data base  <br>
-calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database  <br>
-getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <br>
-sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
-calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
-countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
 
 ## Alur Kerja
 Laman yang pertama ditampilkan adalah login page
@@ -89,3 +78,15 @@ Disini pengguna bisa memasukan Jenis, Tanggal expirasi, Waktu awal, dan tempat p
 ![Tambah List Page]()
 
 Lalu pengguna akan kembali ke **2.2. Inventory**
+
+## Fungsi yang diimplementasikan
+login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
+getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database  <br>
+createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage  <br>
+createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login  <br>
+getTips() : Mengambil data tips and tricks dari data base  <br>
+calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database  <br>
+getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <br>
+sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
+calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
+countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
