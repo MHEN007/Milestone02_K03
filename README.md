@@ -9,11 +9,11 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Rava Maulana	(16521102), Backend Javascript
 - Ahmad Ghulam Ilham (16521142), Content
 - Fakhri Muhammad Mahendra	(16521155), PPT, README
-- Kean Nafis Santang (16521159), Tips and Tricks Page (Front end + content)
+- Kean Nafis Santang (16521159), Tips and Tricks Page
 - Alisha Listya Wardhani (16521209), Pantry (Home dan Log)
 - Rifqi Syafiq	(16521223), Content
-- Erensi Ratu Chelsia (16521236),
-- Raditya Azka Prabaswara	(16521252),
+- Erensi Ratu Chelsia (16521236), PPT
+- Raditya Azka Prabaswara	(16521252), PPT, README
 - Ilmagita Nariswari (16521300), Styling
 - Mohammad Farhan Fahrezy	(16521364), Content
 - Vincent Franstyo	(16521471), Home Page
@@ -30,12 +30,12 @@ Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang diguna
 Install Extension di VS code. Buka file login.html . Click Go live pada bagian bawah kanan.
 
 ## Alur Kerja
-Laman yang pertama ditampilkan adalah login page
+Laman yang pertama ditampilkan bergantung pada status login pengguna
 
-### 1. Login Page ###
-Ketika belum login maka terdapat pilihan **1.1. Login**, dan **1.2. Sign Up**
+### 1. Home page (not logged in) ###
+Ketika belum login maka terdapat pilihan **1.1. Tips and Tricks**, **1.2. Buat Akun**, dan **1.3. Login**
 
-![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
+![Home Page (not logged in)]()
 
 #### 1.1. Login ####
 User bisa memasukkan username dan password untuk login
@@ -72,15 +72,13 @@ Tempat pengguna memasukan informasi tentang makanan baru yang ingin dicatat di p
 ![Pantry Log](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry%20Log.png)
 
 ## Fungsi yang diimplementasikan
-login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
-getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database  <br>
+- login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local - storage  <br>
+- getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database  <br>
 createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage  <br>
-createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login  <br>
+- createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login  <br>
 getTips() : Mengambil data tips and tricks dari data base  <br>
-calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database  <br>
+- calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database  <br>
 getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <br>
-sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
-calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
-countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya <br>
-togglePopup(tip_num) : Menampilkan overlay popup di halaman tips and tricks untuk menunjukan info lengkap <br>
-togglePopupUmum(tip_num) : Menampilkan overlay popup di halaman tips and tricks untuk menunjukan info lengkap <br>
+- sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
+- calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
+- countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
