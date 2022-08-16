@@ -11,7 +11,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Fakhri Muhammad Mahendra	(16521155), PPT, README
 - Kean Nafis Santang (16521159), Tips and Tricks Page
 - Alisha Listya Wardhani (16521209), Pantry (Home dan Log)
-- Rifqi Syafiq	(16521223),
+- Rifqi Syafiq	(16521223), Content
 - Erensi Ratu Chelsia (16521236),
 - Raditya Azka Prabaswara	(16521252),
 - Ilmagita Nariswari (16521300), Styling

@@ -40,6 +40,8 @@ header {
 
 .title img {
   margin-right: 5px;
+  margin-bottom: 5px;
+  align-self: center;
 }
 
 .sub-title {
