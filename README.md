@@ -8,7 +8,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Hilmi Baskara Radanto	(16521094), PPT
 - Rava Maulana	(16521102), Backend Javascript
 - Ahmad Ghulam Ilham (16521142),
-- Fakhri Muhammad Mahendra	(16521155),
+- Fakhri Muhammad Mahendra	(16521155), PPT, README
 - Kean Nafis Santang (16521159), Tips and Tricks Page
 - Alisha Listya Wardhani (16521209), Pantry (Home dan Log)
 - Rifqi Syafiq	(16521223),
@@ -47,7 +47,9 @@ Berisi tampilan untuk meminta input informasi pembuatan akun user
 
 #### 1.3. Login ####
 Berisi form untuk meminta username dan password user
+
 ![Login Page]()
+
 Jika data tidak valid maka kembali ke **1.3. Login**, jika data valid lanjut ke  **2. Home Page (logged in)**
 
 ### 2. Home Page (logged in) ###
@@ -65,7 +67,7 @@ Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanannya.
 
 ![Inventory Page]()
 
-User mendapat pilihan untuk menambah makanan yang ada di list dengan memilih **2.2.1.2 Tambah List**
+User mendapat pilihan untuk menambah makanan yang ada di list dengan memilih **2.2.1. Tambah List**
 
 ##### 2.2.1. Tambah List #####
 
