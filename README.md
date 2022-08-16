@@ -29,7 +29,7 @@ Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang diguna
 ## Cara Run
 Install Extension di VS code. Buka file login.html . Click Go live pada bagian bawah kanan.
 ## Fungsi yang diimplementasikan
-login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage
+login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
 getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database
 createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage
 createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login
