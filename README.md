@@ -90,3 +90,5 @@ getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <b
 sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
 calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
 countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
+togglePopup(tip_num) : menampilkan overlay popup di halaman tips and tricks untuk menunjukan info lengkap
+togglePopupUmum(tip_num) : menampilkan overlay popup di halaman tips and tricks untuk menunjukan info lengkap
