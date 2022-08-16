@@ -37,47 +37,39 @@ Ketika belum login maka terdapat pilihan **1.1. Login**, dan **1.2. Sign Up**
 
 ![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
 
-#### 1.1. Tips and tricks ####
+#### 1.1. Login ####
+User bisa memasukkan username dan password untuk login
+
+![Login](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
+
+#### 1.2. Sign Up ####
+User bisa mendaftarkan akun baru di halaman ini
+
+![Sign Up](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Sign%20Up.png)
+
+Setelah Login maupun Sign Up, User akan masuk ke **2.Homepage**
+
+### 2. Homepage ###
+User bisa melihat bentuk padat dari laman pantry serta laman tips and tricks
+
+![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Home.png)
+
+Pengguna bisa menuju **3.TIps and Tricks**, **4. Pantry**, atau **5. Pantry Log**
+
+### 3. Tips and Tricks ###
 Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
 
-![Tips and tricks]()
+![Tips and Tricks)](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Tips%20and%20Tricks.png)
 
-#### 1.2. Buat Akun ####
-Berisi tampilan untuk meminta input informasi pembuatan akun user
+### 4. Pantry ###
+Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanan dari makananan yang dicatat pengguna
 
-![Buat Akun]()
+![Pantry](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry.png)
 
-#### 1.3. Login ####
-Berisi form untuk meminta username dan password user
+#### 5. Pantry Log ####
+Tempat pengguna memasukan informasi tentang makanan baru yang ingin dicatat di pantry
 
-![Login Page]()
-
-Jika data tidak valid maka kembali ke **1.3. Login**, jika data valid lanjut ke  **2. Home Page (logged in)**
-
-### 2. Home Page (logged in) ###
-Ketika sudah login maka terdapat pilihan **2.1. Tips and Tricks** dan **2.2. Inventory**
-
-![Home Page (logged in)]()
-
-### 2.1. Tips and Tricks ###
-Sama dengan **1.1.**, berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
-
-![Tips and Tricks]()
-
-#### 2.2. Inventory ####
-Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanannya.
-
-![Inventory Page]()
-
-User mendapat pilihan untuk menambah makanan yang ada di list dengan memilih **2.2.1. Tambah List**
-
-##### 2.2.1. Tambah List #####
-
-Disini pengguna bisa memasukan Jenis, Tanggal expirasi, Waktu awal, dan tempat penyimpanan makanan.
-
-![Tambah List Page]()
-
-Lalu pengguna akan kembali ke **2.2. Inventory**
+![Pantry Log](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry%20Log.png)
 
 ## Fungsi yang diimplementasikan
 login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
