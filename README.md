@@ -7,7 +7,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 ## Anggota Kelompok dan Kontribusi
 - Hilmi Baskara Radanto	(16521094), PPT
 - Rava Maulana	(16521102), Backend Javascript
-- Ahmad Ghulam Ilham (16521142),
+- Ahmad Ghulam Ilham (16521142), Content
 - Fakhri Muhammad Mahendra	(16521155), PPT, README
 - Kean Nafis Santang (16521159), Tips and Tricks Page
 - Alisha Listya Wardhani (16521209), Pantry (Home dan Log)
@@ -21,7 +21,11 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Jauza Lathifah Annasalafi	(16521515), Content
 
 ## Dokumentasi Produk
+Seusai dengan judul solusi, XPire merupakan sebuah website yang dibuat untuk membantu pengguna dalam mendata dan mengingat makanan atau minuman apa saja yang dimilikinya sehingga pengguna dapat mengetahui mana yang perlu segera dikonsumsi sebelum basi. Dengan begitu, website ini diharapkan dapat membantu mengurangi tingkat food waste yang dihasilkan di masyarakat, terutama di kalangan mahasiswa.
+
 Pengembangan XPire ini menggunakan javascript. JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. Dengan JavaScript ini bisa membuat aplikasi, tools, atau bahkan game pada web. Secara teknis, JavaScript atau JS merupakan bahasa pemrograman jenis interpreter, sehingga tidak memerlukan compiler untuk menjalankannya. JavaScript memiliki fitur-fitur seperti berorientasi objek, client-side, high-level programming, dan loosely typed.
+
+Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang digunakan untuk mengatur struktur dan tampilan (layout) website XPire. HTML digunakan untuk mendefisinikan struktur website menggunakan markup, sehingga konten yang ditampilkan dapat dibedakan menjadi title, heading, body, list, paragraph. Sedangkan, CSS digunakan untuk mengatur style penulisan pada website seperti warna, ukuran, posisi font yang digunakan pada website.
 
 ## Fungsi yang diimplementasikan dalam JavaScript
 login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage
