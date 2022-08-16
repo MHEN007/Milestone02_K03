@@ -35,7 +35,7 @@ Laman yang pertama ditampilkan adalah login page
 ### 1. Login Page ###
 Ketika belum login maka terdapat pilihan **1.1. Login**, dan **1.2. Sign Up**
 
-![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/Screenshot/login.png)
+![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
 
 #### 1.1. Tips and tricks ####
 Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
