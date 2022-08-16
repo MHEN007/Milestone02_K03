@@ -5,7 +5,7 @@ Tugas Milestone 02 Kelompok 3
 PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 
 ## Anggota Kelompok dan Kontribusi
-- Hilmi Baskara Radanto	(16521094),
+- Hilmi Baskara Radanto	(16521094), PPT
 - Rava Maulana	(16521102), Backend Javascript
 - Ahmad Ghulam Ilham (16521142),
 - Fakhri Muhammad Mahendra	(16521155),
@@ -25,7 +25,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Jauza Lathifah Annasalafi	(16521515), Content
 
 ## Dokumentasi Produk
-Lorem ipsum dolor sit amet
+Pengembangan XPire ini menggunakan javascript. JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. Dengan JavaScript ini bisa membuat aplikasi, tools, atau bahkan game pada web. Secara teknis, JavaScript JS merupakan bahasa pemrograman jenis interpreter, sehingga tidak memerlukan compiler untuk menjalankannya. JavaScript memiliki fitur-fitur seperti berorientasi objek, client-side, high-level programming, dan loosely typed.
 
 ## Alur Kerja
 Laman yang pertama ditampilkan bergantung pada status login pengguna
