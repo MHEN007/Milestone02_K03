@@ -110,8 +110,8 @@ header {
 
   font-family: "Inter", sans-serif;
   color: var(--white-color);
+  text-align: center;
 }
-
 .pantry_title {
   font-weight: bold;
   font-size: 32px;
@@ -139,7 +139,7 @@ header {
   border: 1px var(--dark-purple-color);
   border-radius: 100px;
   height: 28px;
-  width: 43%;
+  width: 33%;
   padding: 2px 23px 2px 20px;
   margin: 5px 10px 5px 28px;
 }
@@ -151,7 +151,7 @@ header {
 .search-icon {
   position: absolute;
   top: 56%;
-  left: 47%;
+  left: 67%;
 }
 
 .pantry-option {
