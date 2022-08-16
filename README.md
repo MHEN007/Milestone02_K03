@@ -83,4 +83,6 @@ getTips() : Mengambil data tips and tricks dari data base  <br>
 getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <br>
 - sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
 - calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
-- countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
+- countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya <br>
+- togglePopup(tip_num) : Menampilkan overlay popup untuk menunjukan halaman lengkap sebuah tip di halaman Tips and Tricks <br>
+- togglePopupUmum(tip_num) : Menampilkan overlay popup untuk menunjukan halaman lengkap sebuah tip di halaman Tips and Tricks (khusus tips umum) <br>
