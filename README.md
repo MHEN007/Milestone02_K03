@@ -33,9 +33,9 @@ Install Extension di VS code. Buka file login.html . Click Go live pada bagian b
 Laman yang pertama ditampilkan bergantung pada status login pengguna
 
 ### 1. Home page (not logged in) ###
-Ketika belum login maka terdapat pilihan **1.1. Tips and Tricks**, **1.2. Buat Akun**, dan **1.3. Login**
+Ketika belum login maka terdapat pilihan **1.1. Login Akun**, dan **1.2. Sign Up**
 
-![Home Page (not logged in)]()
+![Home Page (not logged in)](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
 
 #### 1.1. Login ####
 User bisa memasukkan username dan password untuk login
