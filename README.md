@@ -52,14 +52,14 @@ Setelah Login maupun Sign Up, User akan masuk ke **2.Homepage**
 ### 2. Homepage ###
 User bisa melihat bentuk padat dari laman pantry serta laman tips and tricks
 
-![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Home.png)
+![Homepage](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Home.png)
 
 Pengguna bisa menuju **3.TIps and Tricks**, **4. Pantry**, atau **5. Pantry Log**
 
 ### 3. Tips and Tricks ###
 Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
 
-![Tips and Tricks)](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Tips%20and%20Tricks.png)
+![Tips and Tricks](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Tips%20and%20Tricks.png)
 
 ### 4. Pantry ###
 Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanan dari makananan yang dicatat pengguna
