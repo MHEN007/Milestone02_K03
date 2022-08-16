@@ -22,7 +22,7 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 - Mohammad Farhan Fahrezy	(16521364), Content
 - Vincent Franstyo	(16521471), Home Page
 - Matthew Mahendra	(16521497), Login dan Sign Up Page
-- Jauza Lathifah Annasalafi	(16521515),
+- Jauza Lathifah Annasalafi	(16521515), Content
 
 ## Dokumentasi Produk
 Lorem ipsum dolor sit amet
