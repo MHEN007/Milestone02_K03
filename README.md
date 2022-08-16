@@ -30,14 +30,14 @@ Selain JavaScript, pengembangan XPire juga memanfaatkan HTML dan CSS yang diguna
 Install Extension di VS code. Buka file login.html . Click Go live pada bagian bawah kanan.
 ## Fungsi yang diimplementasikan
 login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local storage  <br>
-getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database
-createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage
-createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login
-getTips() : Mengambil data tips and tricks dari data base
-calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database
-getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal
-sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days
-calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa
+getUserData() : Mengambil data pengguna yang berupa username, password dan pantry dari database  <br>
+createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage  <br>
+createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login  <br>
+getTips() : Mengambil data tips and tricks dari data base  <br>
+calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database  <br>
+getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal  <br>
+sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days  <br>
+calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
 countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
 
 ## Alur Kerja
