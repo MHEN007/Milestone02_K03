@@ -34,6 +34,11 @@ getUserData() : Mengambil data pengguna yang berupa username, password dan pantr
 createUser(username,password) : Mendaftar pengguna baru dengan username dan password dari input, kemudian menyimpan data tersebut dalam local storage
 createPantry(pantry : pantry) : Menambahkan data pantries ke dalam data pengguna yang telah login
 getTips() : Mengambil data tips and tricks dari data base
+calcDaysIn(dateString) : Menghitung berapa lama semenjak data dimasukkan dalam database
+getFirstItem(pantryArr) : Mengembalikan pantry dengan kadaluarsa paling awal
+sortPantry(pantryArr) : Mengembalikan pantry Array dengan diurutkan berdasarkan days
+calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa
+countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
 
 ## Alur Kerja
 Laman yang pertama ditampilkan bergantung pada status login pengguna
