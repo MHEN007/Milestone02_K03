@@ -35,45 +35,41 @@ Laman yang pertama ditampilkan bergantung pada status login pengguna
 ### 1. Home page (not logged in) ###
 Ketika belum login maka terdapat pilihan **1.1. Login Akun**, dan **1.2. Sign Up**
 
-![Home Page (not logged in)](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
-
-<img src="https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png" width="128"/>
-
 ![image](https://user-images.githubusercontent.com/89113487/184866436-b113903e-c75d-43a8-b54c-7291cb9bd69d.png)
 
 #### 1.1. Login ####
 User bisa memasukkan username dan password untuk login
 
-![Login](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
+![image](https://user-images.githubusercontent.com/89113487/184866826-341db0df-d69c-4b4c-a14c-534359f65aea.png)
 
 #### 1.2. Sign Up ####
 User bisa mendaftarkan akun baru di halaman ini
 
-![Sign Up](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Sign%20Up.png)
+![image](https://user-images.githubusercontent.com/89113487/184866853-6e4ed993-2c82-4d3d-8524-2c7b7d919afc.png)
 
 Setelah Login maupun Sign Up, User akan masuk ke **2.Homepage**
 
 ### 2. Homepage ###
 User bisa melihat bentuk padat dari laman pantry serta laman tips and tricks
 
-![Homepage](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Home.png)
+![image](https://user-images.githubusercontent.com/89113487/184866749-2603b26b-f540-4ecc-90bc-73a8e82d8bc7.png)
 
 Pengguna bisa menuju **3.TIps and Tricks**, **4. Pantry**, atau **5. Pantry Log**
 
 ### 3. Tips and Tricks ###
 Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
 
-![Tips and Tricks](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Tips%20and%20Tricks.png)
+![image](https://user-images.githubusercontent.com/89113487/184866707-db5fb37a-263b-49e3-8411-3cec52b44973.png)
 
 ### 4. Pantry ###
 Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanan dari makananan yang dicatat pengguna
 
-![Pantry](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry.png)
+![image](https://user-images.githubusercontent.com/89113487/184866685-bc43d73f-566f-4ed1-90ca-e912671ce392.png)
 
 ### 5. Pantry Log ###
 Tempat pengguna memasukan informasi tentang makanan baru yang ingin dicatat di pantry
 
-![Pantry Log](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Pantry%20Log.png)
+![image](https://user-images.githubusercontent.com/89113487/184866637-e3142ac5-fee6-4b3e-8b93-3678678cecd5.png)
 
 ## Fungsi yang diimplementasikan
 - login(username : string, password : string) : Menyimpan data pengguna yang berupa username dan password ke dalam local - storage  <br>
