@@ -26,3 +26,51 @@ PERAN XPIRE DALAM MENGURANGI FOOD WASTE DI MASYARAKAT
 
 ## Dokumentasi Produk
 Lorem ipsum dolor sit amet
+
+## Alur Kerja
+Laman yang pertama ditampilkan bergantung pada status login pengguna
+
+### 1. Home page (not logged in) ###
+Ketika belum login maka terdapat pilihan **1.1. Tips and Tricks**, **1.2. Buat Akun**, dan **1.3. Login**
+
+![Home Page (not logged in)]()
+
+#### 1.1. Tips and tricks ####
+Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
+
+![Tips and tricks]()
+
+#### 1.2. Buat Akun ####
+Berisi tampilan untuk meminta input informasi pembuatan akun user
+
+![Buat Akun]()
+
+#### 1.3. Login ####
+Berisi form untuk meminta username dan password user
+![Login Page]()
+Jika data tidak valid maka kembali ke **1.3. Login**, jika data valid lanjut ke  **2. Home Page (logged in)**
+
+### 2. Home Page (logged in) ###
+Ketika sudah login maka terdapat pilihan **2.1. Tips and Tricks** dan **2.2. Inventory**
+
+![Home Page (logged in)]()
+
+### 2.1. Tips and Tricks ###
+Sama dengan **1.1.**, berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
+
+![Tips and Tricks]()
+
+#### 2.2. Inventory ####
+Berisi Berisi list makanan, tanggal expirasinya, dan durasi ketahanannya.
+
+![Inventory Page]()
+
+User mendapat pilihan untuk menambah makanan yang ada di list dengan memilih **2.2.1.2 Tambah List**
+
+##### 2.2.1. Tambah List #####
+
+Disini pengguna bisa memasukan Jenis, Tanggal expirasi, Waktu awal, dan tempat penyimpanan makanan.
+
+![Tambah List Page]()
+
+Lalu pengguna akan kembali ke **2.2. Inventory**
