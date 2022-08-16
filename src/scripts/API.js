@@ -26,7 +26,7 @@ export async function getUserData() {
     const username = localStorage.getItem("username");
     const password = localStorage.getItem("password");
     const res = await fetch(
-      `http://localhost:5000/api/v1/user?username=${username}&password=${password}`
+      `https://obscure-bayou-08057.herokuapp.com/api/v1/user?username=${username}&password=${password}`
     );
     const data = await res.json();
 
@@ -48,13 +48,16 @@ export async function createUser(username, password) {
 
   try {
     const user = { username, password };
-    const res = await fetch("http://localhost:5000/api/v1/user", {
-      method: "POST",
-      body: JSON.stringify(user),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const res = await fetch(
+      "https://obscure-bayou-08057.herokuapp.com/api/v1/user",
+      {
+        method: "POST",
+        body: JSON.stringify(user),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     const data = await res.json();
 
     if (data.user) {
@@ -86,13 +89,16 @@ export async function createPantry(pantry) {
   try {
     const username = localStorage.getItem("username");
 
-    const res = await fetch(`http://localhost:5000/api/v1/pantry/${username}`, {
-      method: "POST",
-      body: JSON.stringify(pantry),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const res = await fetch(
+      `https://obscure-bayou-08057.herokuapp.com/api/v1/pantry/${username}`,
+      {
+        method: "POST",
+        body: JSON.stringify(pantry),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     return await res.json();
   } catch (err) {
     console.log(err);
@@ -104,7 +110,9 @@ export async function getTips() {
   // Fungsi ini bisa dipakai kapanpun butuh data tips and tricks.
 
   try {
-    const res = await fetch("http://localhost:5000/api/v1/tips");
+    const res = await fetch(
+      "https://obscure-bayou-08057.herokuapp.com/api/v1/tips"
+    );
     const data = await res.json();
 
     if (data.tips) {
