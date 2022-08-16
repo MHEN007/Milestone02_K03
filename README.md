@@ -41,12 +41,12 @@ calcExpiryDate(dateString) : Menghitung berapa lama sampai kadaluarsa  <br>
 countPantry(pantries) : Menghitung jumlah pantries dibagi berdasarkan cara penyimpanannya
 
 ## Alur Kerja
-Laman yang pertama ditampilkan bergantung pada status login pengguna
+Laman yang pertama ditampilkan adalah login page
 
-### 1. Home page (not logged in) ###
-Ketika belum login maka terdapat pilihan **1.1. Tips and Tricks**, **1.2. Buat Akun**, dan **1.3. Login**
+### 1. Login Page ###
+Ketika belum login maka terdapat pilihan **1.1. Login**, dan **1.2. Sign Up**
 
-![Home Page (not logged in)]()
+![Login Page](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/Screenshot/login.png)
 
 #### 1.1. Tips and tricks ####
 Berisi informasi tentang tempat penyimpanan dan durasi ketahanan makanan
