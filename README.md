@@ -40,12 +40,12 @@ Ketika belum login maka terdapat pilihan **1.1. Login Akun**, dan **1.2. Sign Up
 #### 1.1. Login ####
 User bisa memasukkan username dan password untuk login
 
-![image](https://user-images.githubusercontent.com/89113487/184866826-341db0df-d69c-4b4c-a14c-534359f65aea.png)
+![image](https://user-images.githubusercontent.com/89113487/184866853-6e4ed993-2c82-4d3d-8524-2c7b7d919afc.png)
 
 #### 1.2. Sign Up ####
 User bisa mendaftarkan akun baru di halaman ini
 
-![image](https://user-images.githubusercontent.com/89113487/184866853-6e4ed993-2c82-4d3d-8524-2c7b7d919afc.png)
+![image](https://user-images.githubusercontent.com/89113487/184866826-341db0df-d69c-4b4c-a14c-534359f65aea.png)
 
 Setelah Login maupun Sign Up, User akan masuk ke **2.Homepage**
 
