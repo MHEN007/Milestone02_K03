@@ -37,6 +37,8 @@ Ketika belum login maka terdapat pilihan **1.1. Login Akun**, dan **1.2. Sign Up
 
 ![Home Page (not logged in)](https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png)
 
+<img src="https://github.com/MHEN2606/Milestone02_K03/tree/main/src/assets/Screenshot/Login.png" width="128"/>
+
 #### 1.1. Login ####
 User bisa memasukkan username dan password untuk login
 
